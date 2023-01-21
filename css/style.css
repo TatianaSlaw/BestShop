@@ -185,8 +185,41 @@ nav a:hover {
 .info-box img {
     margin-bottom: 20px;
     min-height: 52px;
+    z-index: 9;
 }
 
+.info-box--red::after {
+    content: "";
+    position: absolute;
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+    background-color: var(--color-redish);
+    z-index: 0;
+    display: flex;
+}
+
+.info-box--blue::after {
+    content: "";
+    position: absolute;
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    z-index: 0;
+    display: flex;
+}
+
+.info-box--green::after {
+    content: "";
+    position: absolute;
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+    background-color: var(--color-green);
+    z-index: 0;
+    display: flex;
+}
 
 
 .info-box p {
