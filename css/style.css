@@ -7,6 +7,8 @@
     --color-grey: #A5A5A5;
     --color-light-grey: #F7F7F7;
     --color-white: #FFFFFF;
+    --primary-font: 'Open Sans', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
 }
 
 * {
@@ -17,7 +19,7 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--primary-font);
     color: var(--color-black);
 }
 
@@ -65,7 +67,10 @@ header {
     font-weight: 300;
     padding: 15px;
     text-decoration: none;
+    font-family: var(--secondary-font);
+
 }
+
 
 /*--navigation--*/
 
@@ -81,7 +86,7 @@ nav li {
 nav a {
     text-decoration: none;
     padding: 25px 15px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--primary-font);
     color: var(--color-grey);
     font-size: 11px;
     line-height: 15px;
@@ -97,4 +102,108 @@ nav a:hover {
 }
 
 
+/*--welcome section--*/
 
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+    font-family: var(--primary-font);
+    color: var(--color-black);
+}
+
+.welcome h1 {
+    font-size: 49px;
+    line-height: 57px;
+    font-family: var(--secondary-font);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.welcome a {
+    background: var(--color-primary);
+    box-shadow: 5px 10px 14px #07ACE629;
+    border-radius: 40px;
+    padding: 22px 155px;
+    color: var(--color-white);
+    margin-top: 35px;
+    text-decoration: none;
+}
+
+.welcome img {
+    width: 100vw;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+/*--section statistics--*/
+
+.statistics {
+    background-color: var(--color-white);
+    font-family: var(--secondary-font);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.statistics  > .container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.statistics h2 {
+    font-family: var(--secondary-font);
+    font-size: 36px;
+    line-height: 42px;
+    padding-bottom: 100px;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 48px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.info-box img {
+    margin-bottom: 20px;
+    min-height: 52px;
+}
+
+
+
+.info-box p {
+    font-size: 20px;
+    line-height: 24px;
+    font-family: var(--secondary-font);
+    letter-spacing: 6px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.info-box span {
+    font-size: 16px;
+    line-height: 19px;
+    font-family: var(--secondary-font);
+    margin-bottom: 20px;
+    color: var(--color-grey);
+    text-align: center;
+}
