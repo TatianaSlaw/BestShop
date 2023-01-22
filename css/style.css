@@ -436,8 +436,8 @@ nav a:hover {
 .price-box--red a {
     background-color: var(--color-redish);
     display: flex;
-    position: absolute;
-    margin-top: 415px;
+    position: relative;
+    bottom: -65px;
 }
 
 .price-box--blue {
@@ -455,8 +455,8 @@ nav a:hover {
 .price-box--blue a {
     background-color: var(--color-primary);
     display: flex;
-    position: absolute;
-    margin-top: 425px;
+    position: relative;
+    bottom: -75px;;
 }
 
 .price-box--green {
@@ -470,8 +470,8 @@ nav a:hover {
 .price-box--green a {
     background-color: var(--color-green);
     display: flex;
-    position: absolute;
-    margin-top: 415px;
+    position: relative;
+    bottom: -65px;
 }
 
 /*--contact section--*/
