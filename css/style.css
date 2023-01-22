@@ -391,7 +391,6 @@ nav a:hover {
 .price-box p {
     font-size: 46px;
     line-height: 92px;
-
 }
 
 .prices li {
@@ -436,6 +435,9 @@ nav a:hover {
 
 .price-box--red a {
     background-color: var(--color-redish);
+    display: flex;
+    position: absolute;
+    margin-top: 415px;
 }
 
 .price-box--blue {
@@ -452,6 +454,9 @@ nav a:hover {
 
 .price-box--blue a {
     background-color: var(--color-primary);
+    display: flex;
+    position: absolute;
+    margin-top: 425px;
 }
 
 .price-box--green {
@@ -464,6 +469,9 @@ nav a:hover {
 
 .price-box--green a {
     background-color: var(--color-green);
+    display: flex;
+    position: absolute;
+    margin-top: 415px;
 }
 
 /*--contact section--*/
@@ -480,6 +488,7 @@ nav a:hover {
     flex-direction: column;
     width: 50%;
     padding-bottom: 60px;
+    padding-top: 50px;
 }
 
 .contacts h2 {
@@ -553,6 +562,7 @@ input {
     border-radius: 4px;
 
 }
+
 .checkbox {
     cursor: pointer;
     display: flex;
@@ -593,7 +603,7 @@ input {
     padding: 20px 135px;
     display: flex;
     justify-content: space-between;
-    box-shadow: 0px -5px 40px #00000029;
+    box-shadow: 0 -5px 40px #00000029;
     align-items: center;
 }
 
