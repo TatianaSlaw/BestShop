@@ -385,8 +385,22 @@ nav a:hover {
 .prices li {
     font-size: 14px;
     line-height: 41px;
-
 }
+
+.prices li.yes::before {
+    content: url("../assets/Ckechmark-1.svg");
+    width: 11px;
+    height: 11px;
+    margin-right: 5px;
+}
+
+.prices li.no::before {
+    content: url("../assets/Close.svg");
+    width: 11px;
+    height: 11px;
+    margin-right: 5px;
+}
+
 
 .price-box a {
     font-size: 13px;
