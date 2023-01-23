@@ -312,6 +312,8 @@ nav a:hover {
     margin-right: 30px;
     padding: 20px 20px 0 35px;
     background-color: var(--color-white);
+    border: 1px solid #E8E9ED;
+    border-radius: 5px;
 }
 
 .benefits-box:nth-child(3) {
@@ -338,6 +340,7 @@ nav a:hover {
 .green-img {
     background-color: var(--color-green);
     border: 1px solid var(--color-green);
+    border-radius: 5px;
     display: flex;
     align-items: center;
     padding: 50px;
@@ -441,10 +444,10 @@ nav a:hover {
 }
 
 .price-box--blue {
-    border: 1px solid var(--color-primary);
+    width: 31%;
     padding-top: 60px;
     padding-bottom: 60px;
-    width: 31%;
+    border: 1px solid var(--color-primary);
     box-shadow: 5px 10px 27px #07ACE629;
 }
 
