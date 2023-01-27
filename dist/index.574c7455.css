@@ -4,28 +4,48 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: #000;
   font-family: Open Sans, sans-serif;
-  font-size: 1em;
+  font-size: 16px;
+  line-height: 22px;
 }
 
-html {
-  scroll-behavior: smooth;
+@media (max-width: 1000px) {
+  body {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 .container {
   max-width: 1352px;
   align-items: center;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
   display: flex;
 }
 
 h2 {
   padding-bottom: 100px;
   font-family: Raleway, sans-serif;
-  font-size: 2.25em;
-  line-height: 2.625em;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+@media (max-width: 1000px) {
+  h2 {
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 35px;
+  }
 }
 
 .welcome {
@@ -37,6 +57,12 @@ h2 {
   display: flex;
 }
 
+@media (max-width: 1000px) {
+  .welcome {
+    margin-top: 100px;
+  }
+}
+
 .welcome h1 {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -45,20 +71,45 @@ h2 {
   line-height: 57px;
 }
 
+@media (max-width: 1000px) {
+  .welcome h1 {
+    font-size: 35px;
+    line-height: 41px;
+  }
+}
+
 .welcome a {
   color: #fff;
   background: #08a6e4;
   border-radius: 40px;
   margin-top: 35px;
   padding: 22px 155px;
+  font-weight: bold;
   text-decoration: none;
   box-shadow: 5px 10px 14px #07ace629;
+}
+
+@media (max-width: 1000px) {
+  .welcome a {
+    width: 100%;
+    text-align: center;
+    margin-top: 31px;
+    padding: 22px 92px;
+  }
 }
 
 .welcome img {
   width: 100vw;
   background-position: bottom;
   background-size: cover;
+}
+
+@media (max-width: 1000px) {
+  .welcome img {
+    width: auto;
+    max-height: 267px;
+    background-size: contain;
+  }
 }
 
 .statistics {
@@ -71,7 +122,13 @@ h2 {
   display: flex;
 }
 
-.statistics > .container {
+@media (max-width: 1000px) {
+  .statistics {
+    padding-bottom: 0;
+  }
+}
+
+.statistics .container {
   width: 100%;
   height: auto;
   flex-direction: column;
@@ -86,6 +143,13 @@ h2 {
   display: flex;
 }
 
+@media (max-width: 1000px) {
+  .info-boxes {
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+}
+
 .info-box {
   width: 30%;
   height: 48px;
@@ -96,43 +160,20 @@ h2 {
   display: flex;
 }
 
+@media (max-width: 1000px) {
+  .info-box {
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+  }
+}
+
 .info-box img {
-  min-height: 52px;
+  max-height: 52px;
   z-index: 9;
   margin-bottom: 20px;
-}
-
-.info-box--red:after {
-  content: "";
-  height: 63px;
-  width: 63px;
-  z-index: 0;
-  background-color: #fb3b64;
-  border-radius: 50%;
-  display: flex;
-  position: absolute;
-}
-
-.info-box--blue:after {
-  content: "";
-  height: 63px;
-  width: 63px;
-  z-index: 0;
-  background-color: #08a6e4;
-  border-radius: 50%;
-  display: flex;
-  position: absolute;
-}
-
-.info-box--green:after {
-  content: "";
-  height: 63px;
-  width: 63px;
-  z-index: 0;
-  background-color: #55dfb4;
-  border-radius: 50%;
-  display: flex;
-  position: absolute;
 }
 
 .info-box p {
@@ -152,6 +193,39 @@ h2 {
   font-family: Raleway, sans-serif;
   font-size: 16px;
   line-height: 19px;
+}
+
+.info-box--red:after {
+  content: "";
+  height: 63px;
+  width: 63px;
+  z-index: 0;
+  background-color: #fb3b64;
+  border-radius: 50%;
+  position: absolute;
+  transform: translateX(50%);
+}
+
+.info-box--blue:after {
+  content: "";
+  height: 63px;
+  width: 63px;
+  z-index: 0;
+  background-color: #08a6e4;
+  border-radius: 50%;
+  position: absolute;
+  transform: translateX(50%);
+}
+
+.info-box--green:after {
+  content: "";
+  height: 63px;
+  width: 63px;
+  z-index: 0;
+  background-color: #55dfb4;
+  border-radius: 50%;
+  position: absolute;
+  transform: translateX(50%);
 }
 
 .benefits {
@@ -393,7 +467,7 @@ header {
   display: flex;
 }
 
-.top-bar > .container {
+.top-bar .container {
   width: 100%;
   height: auto;
   justify-content: space-between;
@@ -405,11 +479,17 @@ header {
   color: #08a6e4;
   padding: 15px;
   font-family: Raleway, sans-serif;
-  font-size: 2em;
+  font-size: 16px;
   font-weight: 300;
-  line-height: 2.3125em;
+  line-height: 37px;
   text-decoration: none;
   display: flex;
+}
+
+@media (max-width: 1000px) {
+  .shop_logo {
+    font-size: 32px;
+  }
 }
 
 nav ul {
@@ -417,20 +497,26 @@ nav ul {
   display: flex;
 }
 
-nav a {
+@media (max-width: 1000px) {
+  nav ul {
+    display: none;
+  }
+}
+
+nav ul li a {
   color: #a5a5a5;
   text-align: center;
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 25px 15px;
   font-family: Open Sans, sans-serif;
-  font-size: .6875em;
+  font-size: 11px;
   font-weight: bold;
-  line-height: .9375em;
+  line-height: 15px;
   text-decoration: none;
 }
 
-nav a:hover {
+nav ul li a:hover {
   color: #000;
   border-bottom: 2px solid #08a6e4;
 }
