@@ -33,12 +33,12 @@
 .price-box h3 {
   font-weight: bold;
   font-size: 21px;
-  font-family: var(--secondary-font);
+  font-family: $secondary-font;
 }
 
 .price-box span {
   font-size: 12px;
-  font-family: var(--secondary-font);
+  font-family: $secondary-font;
   margin-bottom: 50px;
 }
 
@@ -57,17 +57,17 @@
   width: 11px;
   height: 11px;
   margin-right: 5px;
-}
+  }
 
-.prices li.no::before {
+  .prices li.no::before {
   content: url("../assets/Close.svg");
   width: 11px;
   height: 11px;
   margin-right: 5px;
-}
+  }
 
 
-.price-box a {
+  .price-box a {
   font-size: 13px;
   line-height: 41px;
   border-radius: 23px;
@@ -76,54 +76,54 @@
   padding-left: 55px;
   padding-right: 55px;
   margin-top: 50px;
-  color: var(--color-white);
-}
+  color: $color-white;
+  }
 
-.price-box--red {
-  border: 1px solid var(--color-redish);
-}
+  .price-box--red {
+  border: 1px solid $color-redish;
+  }
 
-.price-box--red p {
-  color: var(--color-redish);
-}
+  .price-box--red p {
+  color: $color-redish;
+  }
 
-.price-box--red a {
-  background-color: var(--color-redish);
+  .price-box--red a {
+  background-color: $color-redish;
   display: flex;
   position: relative;
   bottom: -65px;
-}
+  }
 
-.price-box--blue {
+  .price-box--blue {
   width: 31%;
   padding-top: 60px;
   padding-bottom: 60px;
-  border: 1px solid var(--color-primary);
+  border: 1px solid $color-primary;
   box-shadow: 5px 10px 27px #07ACE629;
-}
+  }
 
-.price-box--blue p {
-  color: var(--color-primary);
-}
+  .price-box--blue p {
+  color: $color-primary;
+  }
 
-.price-box--blue a {
-  background-color: var(--color-primary);
+  .price-box--blue a {
+  background-color: $color-primary;
   display: flex;
   position: relative;
   bottom: -75px;;
-}
+  }
 
-.price-box--green {
-  border: 1px solid var(--color-green);
-}
+  .price-box--green {
+  border: 1px solid $color-green;
+  }
 
-.price-box--green p {
-  color: var(--color-green);
-}
+  .price-box--green p {
+  color: $color-green;
+  }
 
-.price-box--green a {
-  background-color: var(--color-green);
+  .price-box--green a {
+  background-color: $color-green;
   display: flex;
   position: relative;
   bottom: -65px;
-}
+  }

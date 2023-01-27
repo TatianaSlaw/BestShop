@@ -1,8 +1,8 @@
 /*--section statistics--*/
 
 .statistics {
-  background-color: var(--color-white);
-  font-family: var(--secondary-font);
+  background-color: $color-white;
+  font-family: $secondary-font;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -48,7 +48,7 @@
   height: 63px;
   width: 63px;
   border-radius: 50%;
-  background-color: var(--color-redish);
+  background-color: $color-redish;
   z-index: 0;
   display: flex;
 }
@@ -59,7 +59,7 @@
   height: 63px;
   width: 63px;
   border-radius: 50%;
-  background-color: var(--color-primary);
+  background-color: $color-primary;
   z-index: 0;
   display: flex;
 }
@@ -70,7 +70,7 @@
   height: 63px;
   width: 63px;
   border-radius: 50%;
-  background-color: var(--color-green);
+  background-color: $color-green;
   z-index: 0;
   display: flex;
 }
@@ -79,7 +79,7 @@
 .info-box p {
   font-size: 20px;
   line-height: 24px;
-  font-family: var(--secondary-font);
+  font-family: $secondary-font;
   letter-spacing: 6px;
   font-weight: 800;
   margin-bottom: 20px;
@@ -89,8 +89,8 @@
 .info-box span {
   font-size: 16px;
   line-height: 19px;
-  font-family: var(--secondary-font);
+  font-family: $secondary-font;
   margin-bottom: 20px;
-  color: var(--color-grey);
+  color: $color-grey;
   text-align: center;
 }

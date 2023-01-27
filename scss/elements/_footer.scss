@@ -16,8 +16,8 @@
 }
 
 .copyright p {
-  color: var(--color-primary);
-  font-family: var(--secondary-font);
+  color: $color-primary;
+  font-family: $secondary-font;
   font-size: 26px;
   line-height: 30px;
 }
@@ -25,5 +25,5 @@
 .copyright span {
   font-size: 11px;
   line-height: 15px;
-  color: var(--color-grey);
+  color: $color-grey;
 }

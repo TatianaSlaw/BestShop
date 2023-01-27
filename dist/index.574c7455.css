@@ -4,23 +4,10 @@
   padding: 0;
 }
 
-:root {
-  --color-primary: #08a6e4;
-  --color-primary-shadow: #07ace629;
-  --color-redish: #fb3b64;
-  --color-green: #55dfb4;
-  --color-black: #000;
-  --color-grey: #a5a5a5;
-  --color-light-grey: #f7f7f7;
-  --color-white: #fff;
-  --primary-font: "Open Sans", sans-serif;
-  --secondary-font: "Raleway", sans-serif;
-}
-
 body {
-  font-family: var(--primary-font);
-  color: var(--color-black);
-  font-size: 16px;
+  color: #000;
+  font-family: Open Sans, sans-serif;
+  font-size: 1em;
 }
 
 html {
@@ -35,32 +22,32 @@ html {
 }
 
 h2 {
-  font-family: var(--secondary-font);
   padding-bottom: 100px;
-  font-size: 36px;
-  line-height: 42px;
+  font-family: Raleway, sans-serif;
+  font-size: 2.25em;
+  line-height: 2.625em;
 }
 
 .welcome {
-  font-family: var(--primary-font);
-  color: var(--color-black);
+  color: #000;
   flex-direction: column;
   align-items: center;
   margin-top: 120px;
+  font-family: Open Sans, sans-serif;
   display: flex;
 }
 
 .welcome h1 {
-  font-size: 49px;
-  line-height: 57px;
-  font-family: var(--secondary-font);
   margin-top: 10px;
   margin-bottom: 10px;
+  font-family: Raleway, sans-serif;
+  font-size: 49px;
+  line-height: 57px;
 }
 
 .welcome a {
-  background: var(--color-primary);
-  color: var(--color-white);
+  color: #fff;
+  background: #08a6e4;
   border-radius: 40px;
   margin-top: 35px;
   padding: 22px 155px;
@@ -75,12 +62,12 @@ h2 {
 }
 
 .statistics {
-  background-color: var(--color-white);
-  font-family: var(--secondary-font);
+  background-color: #fff;
   flex-direction: column;
   align-items: center;
   padding-top: 100px;
   padding-bottom: 120px;
+  font-family: Raleway, sans-serif;
   display: flex;
 }
 
@@ -119,8 +106,8 @@ h2 {
   content: "";
   height: 63px;
   width: 63px;
-  background-color: var(--color-redish);
   z-index: 0;
+  background-color: #fb3b64;
   border-radius: 50%;
   display: flex;
   position: absolute;
@@ -130,8 +117,8 @@ h2 {
   content: "";
   height: 63px;
   width: 63px;
-  background-color: var(--color-primary);
   z-index: 0;
+  background-color: #08a6e4;
   border-radius: 50%;
   display: flex;
   position: absolute;
@@ -141,35 +128,35 @@ h2 {
   content: "";
   height: 63px;
   width: 63px;
-  background-color: var(--color-green);
   z-index: 0;
+  background-color: #55dfb4;
   border-radius: 50%;
   display: flex;
   position: absolute;
 }
 
 .info-box p {
-  font-size: 20px;
-  line-height: 24px;
-  font-family: var(--secondary-font);
   letter-spacing: 6px;
   text-align: center;
   margin-bottom: 20px;
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
   font-weight: 800;
+  line-height: 24px;
 }
 
 .info-box span {
-  font-size: 16px;
-  line-height: 19px;
-  font-family: var(--secondary-font);
-  color: var(--color-grey);
+  color: #a5a5a5;
   text-align: center;
   margin-bottom: 20px;
+  font-family: Raleway, sans-serif;
+  font-size: 16px;
+  line-height: 19px;
 }
 
 .benefits {
   width: 100vw;
-  background-color: var(--color-light-grey);
+  background-color: #f7f7f7;
   display: flex;
 }
 
@@ -191,7 +178,7 @@ h2 {
 
 .benefits-box {
   width: 100%;
-  background-color: var(--color-white);
+  background-color: #fff;
   border: 1px solid #e8e9ed;
   border-radius: 5px;
   justify-content: space-between;
@@ -227,7 +214,7 @@ h2 {
 
 .benefits-box--green {
   width: 50%;
-  background-color: var(--color-white);
+  background-color: #fff;
   border: 1px solid #e8e9ed;
   border-radius: 5px;
   flex-direction: column;
@@ -238,29 +225,29 @@ h2 {
 }
 
 .benefits-box:nth-child(3) {
-  background-color: var(--color-light-grey);
+  background-color: #f7f7f7;
   border: none;
   justify-content: space-between;
 }
 
 .benefits-box--red hr {
-  color: var(--color-redish);
-  background-color: var(--color-redish);
+  color: #fb3b64;
+  background-color: #fb3b64;
 }
 
 .benefits-box--blue hr {
-  color: var(--color-primary);
-  background-color: var(--color-primary);
+  color: #08a6e4;
+  background-color: #08a6e4;
 }
 
 .benefits-box--green hr {
-  color: var(--color-green);
-  background-color: var(--color-green);
+  color: #55dfb4;
+  background-color: #55dfb4;
 }
 
 .green-img {
-  background-color: var(--color-green);
-  border: 1px solid var(--color-green);
+  background-color: #55dfb4;
+  border: 1px solid #55dfb4;
   border-radius: 5px;
   align-items: center;
   margin-left: 60px;
@@ -299,15 +286,15 @@ h2 {
 }
 
 .price-box h3 {
+  font-family: Raleway, sans-serif;
   font-size: 21px;
   font-weight: bold;
-  font-family: var(--secondary-font);
 }
 
 .price-box span {
-  font-size: 12px;
-  font-family: var(--secondary-font);
   margin-bottom: 50px;
+  font-family: Raleway, sans-serif;
+  font-size: 12px;
 }
 
 .price-box p {
@@ -335,7 +322,7 @@ h2 {
 }
 
 .price-box a {
-  color: var(--color-white);
+  color: #fff;
   border: 1px solid;
   border-radius: 23px;
   margin-top: 50px;
@@ -347,15 +334,15 @@ h2 {
 }
 
 .price-box--red {
-  border: 1px solid var(--color-redish);
+  border: 1px solid #fb3b64;
 }
 
 .price-box--red p {
-  color: var(--color-redish);
+  color: #fb3b64;
 }
 
 .price-box--red a {
-  background-color: var(--color-redish);
+  background-color: #fb3b64;
   display: flex;
   position: relative;
   bottom: -65px;
@@ -363,33 +350,33 @@ h2 {
 
 .price-box--blue {
   width: 31%;
-  border: 1px solid var(--color-primary);
+  border: 1px solid #08a6e4;
   padding-top: 60px;
   padding-bottom: 60px;
   box-shadow: 5px 10px 27px #07ace629;
 }
 
 .price-box--blue p {
-  color: var(--color-primary);
+  color: #08a6e4;
 }
 
 .price-box--blue a {
-  background-color: var(--color-primary);
+  background-color: #08a6e4;
   display: flex;
   position: relative;
   bottom: -75px;
 }
 
 .price-box--green {
-  border: 1px solid var(--color-green);
+  border: 1px solid #55dfb4;
 }
 
 .price-box--green p {
-  color: var(--color-green);
+  color: #55dfb4;
 }
 
 .price-box--green a {
-  background-color: var(--color-green);
+  background-color: #55dfb4;
   display: flex;
   position: relative;
   bottom: -65px;
@@ -397,9 +384,9 @@ h2 {
 
 header {
   width: 100vw;
-  background-color: var(--color-white);
-  border-bottom: 1px solid var(--color-light-grey);
-  box-shadow: 0 3px 6px var(--color-light-grey);
+  background-color: #fff;
+  border-bottom: 1px solid #f7f7f7;
+  box-shadow: 0 3px 6px #f7f7f7;
 }
 
 .top-bar {
@@ -415,12 +402,12 @@ header {
 }
 
 .shop_logo {
-  color: var(--color-primary);
-  font-size: 32px;
-  font-weight: 300;
-  line-height: 37px;
-  font-family: var(--secondary-font);
+  color: #08a6e4;
   padding: 15px;
+  font-family: Raleway, sans-serif;
+  font-size: 2em;
+  font-weight: 300;
+  line-height: 2.3125em;
   text-decoration: none;
   display: flex;
 }
@@ -431,21 +418,21 @@ nav ul {
 }
 
 nav a {
-  font-family: var(--primary-font);
-  color: var(--color-grey);
+  color: #a5a5a5;
   text-align: center;
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 25px 15px;
-  font-size: 11px;
+  font-family: Open Sans, sans-serif;
+  font-size: .6875em;
   font-weight: bold;
-  line-height: 15px;
+  line-height: .9375em;
   text-decoration: none;
 }
 
 nav a:hover {
-  border-bottom: 2px solid var(--color-primary);
-  color: var(--color-black);
+  color: #000;
+  border-bottom: 2px solid #08a6e4;
 }
 
 .container-contact {
@@ -464,10 +451,10 @@ nav a:hover {
 }
 
 .contacts h2 {
+  padding-bottom: 22px;
+  font-family: Raleway, sans-serif;
   font-size: 49px;
   line-height: 57px;
-  font-family: var(--secondary-font);
-  padding-bottom: 22px;
 }
 
 .contacts p {
@@ -477,7 +464,7 @@ nav a:hover {
 }
 
 .contacts span {
-  color: var(--color-grey);
+  color: #a5a5a5;
   padding-right: 10px;
   font-size: 17px;
   font-weight: 600;
@@ -491,7 +478,7 @@ nav a:hover {
 }
 
 label {
-  color: var(--color-primary);
+  color: #08a6e4;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 11px;
@@ -500,10 +487,8 @@ label {
 }
 
 input {
-  border-bottom: 2px solid var(--color-grey);
-  border-top: none;
-  border-left: none;
-  border-right: none;
+  border: none;
+  border-bottom: 2px solid #a5a5a5;
   margin-bottom: 20px;
 }
 
@@ -518,10 +503,10 @@ input {
 .checkbox {
   color: #707070;
   text-transform: none;
+  letter-spacing: 0;
+  font-family: Open Sans, sans-serif;
   font-size: 12px;
   line-height: 17px;
-  font-family: var(--primary-font);
-  letter-spacing: 0;
 }
 
 .checkbox span {
@@ -553,8 +538,8 @@ input {
 .contacts button {
   width: -moz-fit-content;
   width: fit-content;
-  color: var(--color-white);
-  background-color: var(--color-primary);
+  color: #fff;
+  background-color: #08a6e4;
   border: 1px solid;
   border-radius: 35px;
   align-self: flex-end;
@@ -584,14 +569,14 @@ input {
 }
 
 .copyright p {
-  color: var(--color-primary);
-  font-family: var(--secondary-font);
+  color: #08a6e4;
+  font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 30px;
 }
 
 .copyright span {
-  color: var(--color-grey);
+  color: #a5a5a5;
   font-size: 11px;
   line-height: 15px;
 }

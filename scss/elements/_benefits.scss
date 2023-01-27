@@ -3,7 +3,7 @@
 .benefits {
   width: 100vw;
   display: flex;
-  background-color: var(--color-light-grey);
+  background-color: $color-light-grey;
 }
 
 .benefits > .container-benefits {
@@ -28,7 +28,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--color-white);
+  background-color: $color-white;
   border: 1px solid #E8E9ED;
   border-radius: 5px;
   margin-top: 15px;
@@ -68,38 +68,39 @@
   justify-content: center;
   margin-right: 30px;
   padding: 20px 20px 0 35px;
-  background-color: var(--color-white);
+  background-color: $color-white;
   border: 1px solid #E8E9ED;
   border-radius: 5px;
 }
 
 .benefits-box:nth-child(3) {
   justify-content: space-between;
-  background-color: var(--color-light-grey);
+  background-color: $color-light-grey;
   border: none;
 }
 
 .benefits-box--red hr {
-  color: var(--color-redish);
-  background-color: var(--color-redish);
+  color: $color-redish;
+  background-color: $color-redish;
 }
 
 .benefits-box--blue hr {
-  color: var(--color-primary);
-  background-color: var(--color-primary);
+  color: $color-primary;
+  background-color: $color-primary;
 }
 
 .benefits-box--green hr {
-  color: var(--color-green);
-  background-color: var(--color-green);
+  color: $color-green;
+  background-color: $color-green;
 }
 
 .green-img {
-  background-color: var(--color-green);
-  border: 1px solid var(--color-green);
+  background-color: $color-green;
+  border: 1px solid $color-green;
   border-radius: 5px;
   display: flex;
   align-items: center;
   padding: 50px;
   margin-left: 60px;
 }
+

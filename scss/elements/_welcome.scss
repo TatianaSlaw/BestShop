@@ -5,24 +5,24 @@
   flex-direction: column;
   align-items: center;
   margin-top: 120px;
-  font-family: var(--primary-font);
-  color: var(--color-black);
+  font-family: $primary-font;
+  color: $color-black;
 }
 
 .welcome h1 {
   font-size: 49px;
   line-height: 57px;
-  font-family: var(--secondary-font);
+  font-family: $secondary-font;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 .welcome a {
-  background: var(--color-primary);
+  background: $color-primary;
   box-shadow: 5px 10px 14px #07ACE629;
   border-radius: 40px;
   padding: 22px 155px;
-  color: var(--color-white);
+  color: $color-white;
   margin-top: 35px;
   text-decoration: none;
 }
