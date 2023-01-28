@@ -7,9 +7,10 @@
   margin-top: 120px;
   font-family: $primary-font;
   color: $color-black;
+  text-align: center;
 
   @include mobPhones {
-    margin-top: 100px;
+    margin: 100px 30px 0 30px;
   }
 
 

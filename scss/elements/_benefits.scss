@@ -10,7 +10,8 @@
     align-items: center;
 
     @include mobPhones {
-    width: 100%;
+    width: fit-content;
+    margin: 30px 30px;
     }
   }
 }
@@ -23,8 +24,8 @@
   margin: 90px 15%;
 
   @include mobPhones {
-    //width: max-content;
-    margin:0;
+    margin-top: 40px;
+    margin-bottom: 0;
     }
 
   .benefits-box {
@@ -35,13 +36,15 @@
     background-color: $color-white;
     border: 1px solid #E8E9ED;
     border-radius: 5px;
-    margin-top: 15px;
     margin-bottom: 15px;
     padding: 30px;
 
-
     @include mobPhones {
     flex-direction: column;
+
+      &:nth-child(1) {
+        flex-direction: column-reverse;
+      }
     }
 
     img {
@@ -49,7 +52,7 @@
       position: relative;
 
       @include mobPhones {
-        padding: 37px 65px 27px 65px;
+        padding: 37px 0 27px 0;
       }
     }
 
@@ -62,8 +65,11 @@
   }
 }
 
-.benefits-box--red h2, .benefits-box--blue h2 .benefits-box--green h2 {
+.benefits-box--red h2, .benefits-box--blue h2, .benefits-box--green h2 {
   padding-bottom: 30px;
+  @include mobPhones {
+    text-align: left;
+  }
 }
 
 .benefits-box--red, .benefits-box--blue {
@@ -85,13 +91,19 @@
     content: "";
     position: absolute;
     right: 0;
-    top: -60px;
-    height: 160px;
-    width: 160px;
+    top: -45px;
+    height: 140px;
+    width: 140px;
     border-radius: 41px;
     background-color: $color-redish;
     z-index: 0;
     transform: rotate(45deg);
+
+    @include mobPhones {
+      top: 22px;
+      height: 107px;
+      width: 107px;;
+    }
   }
 }
 
@@ -108,31 +120,14 @@
     border-radius: 50%;
     background-color: $color-primary;
     z-index: 0;
+
+    @include mobPhones {
+      top: 30px;
+      height: 182px;
+      width: 182px;;
+      background-color: $color-white;
+    }
   }
-}
-
-
-.benefits-box--green {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-right: 30px;
-  padding: 20px 20px 0 35px;
-  background-color: $color-white;
-  border: 1px solid #E8E9ED;
-  border-radius: 5px;
-
-  @include mobPhones {
-    width: 100%;
-    padding: 0;
-  }
-}
-
-.benefits-box:nth-child(3) {
-  justify-content: space-between;
-  background-color: $color-light-grey;
-  border: none;
 }
 
 .benefits-box--red hr {
@@ -158,7 +153,39 @@
   background-color: $color-green;
 
   @include mobPhones {
-  display: none;
+    display: none;
+  }
+}
+
+.benefits-box--green {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 30px;
+  padding: 20px 20px 0 35px;
+  background-color: $color-white;
+  border: 1px solid #E8E9ED;
+  border-radius: 5px;
+
+  @include mobPhones {
+    width: 100%;
+    padding: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+    border: none;
+  }
+}
+
+.benefits-box:nth-child(3) {
+  justify-content: space-between;
+  background-color: $color-light-grey;
+  border: none;
+
+  @include mobPhones {
+    background-color: $color-white;
+    border: 1px solid #E8E9ED;
+    border-radius: 5px;
   }
 }
 
@@ -173,8 +200,6 @@
 
   @include mobPhones {
     width: 100%;
-    padding: 0;
-    margin: 0;
   }
 }
 
