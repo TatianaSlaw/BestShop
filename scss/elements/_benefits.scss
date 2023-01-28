@@ -1,17 +1,18 @@
-/*--benefits--*/
-
 .benefits {
   width: 100vw;
-  display: flex;
   background-color: $color-light-grey;
-}
 
-.benefits > .container-benefits {
-  max-width: 1124px;
-  display: flex;
-  margin: 0 auto;
-  flex-direction: column;
-  align-items: center;
+  .container-benefits {
+    max-width: 1124px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+
+    @include mobPhones {
+    width: 100%;
+    }
+  }
 }
 
 .benefits-boxes {
@@ -21,32 +22,44 @@
   align-items: center;
   margin: 90px 15%;
 
-}
+  @include mobPhones {
+    //width: max-content;
+    margin:0;
+    }
 
-.benefits-box {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: $color-white;
-  border: 1px solid #E8E9ED;
-  border-radius: 5px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
+  .benefits-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $color-white;
+    border: 1px solid #E8E9ED;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 30px;
 
 
-.benefits-box img {
-  width: 50%;
-  display: flex;
+    @include mobPhones {
+    flex-direction: column;
+    }
 
-}
+    img {
+      width: 100%;
+      position: relative;
 
-.benefits-box hr {
-  width: 325px;
-  height: 4px;
-  margin-top: 50px;
-  margin-bottom: 90px;
+      @include mobPhones {
+        padding: 37px 65px 27px 65px;
+      }
+    }
+
+    hr {
+      width: 325px;
+      height: 4px;
+      margin-top: 50px;
+      margin-bottom: 90px;
+    }
+  }
 }
 
 .benefits-box--red h2, .benefits-box--blue h2 .benefits-box--green h2 {
@@ -59,7 +72,45 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
+    @include mobPhones {
+    width: 100%;
+    padding: 0;
+    }
 }
+.redish-square {
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: -60px;
+    height: 160px;
+    width: 160px;
+    border-radius: 41px;
+    background-color: $color-redish;
+    z-index: 0;
+    transform: rotate(45deg);
+  }
+}
+
+.blue-circle{
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -70px;
+    height: 520px;
+    width: 520px;
+    border-radius: 50%;
+    background-color: $color-primary;
+    z-index: 0;
+  }
+}
+
 
 .benefits-box--green {
   width: 50%;
@@ -71,6 +122,11 @@
   background-color: $color-white;
   border: 1px solid #E8E9ED;
   border-radius: 5px;
+
+  @include mobPhones {
+    width: 100%;
+    padding: 0;
+  }
 }
 
 .benefits-box:nth-child(3) {
@@ -82,16 +138,28 @@
 .benefits-box--red hr {
   color: $color-redish;
   background-color: $color-redish;
+
+  @include mobPhones {
+    display: none;
+  }
 }
 
 .benefits-box--blue hr {
   color: $color-primary;
   background-color: $color-primary;
+
+  @include mobPhones {
+    display: none;
+  }
 }
 
 .benefits-box--green hr {
   color: $color-green;
   background-color: $color-green;
+
+  @include mobPhones {
+  display: none;
+  }
 }
 
 .green-img {
@@ -101,6 +169,12 @@
   display: flex;
   align-items: center;
   padding: 50px;
-  margin-left: 60px;
+  margin-left: 15px;
+
+  @include mobPhones {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
 }
 

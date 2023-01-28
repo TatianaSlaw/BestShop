@@ -15,13 +15,6 @@ body {
   line-height: 22px;
 }
 
-@media (max-width: 1000px) {
-  body {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-}
-
 .container {
   max-width: 1352px;
   align-items: center;
@@ -231,15 +224,20 @@ h2 {
 .benefits {
   width: 100vw;
   background-color: #f7f7f7;
-  display: flex;
 }
 
-.benefits > .container-benefits {
+.benefits .container-benefits {
   max-width: 1124px;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
   display: flex;
+}
+
+@media (max-width: 1000px) {
+  .benefits .container-benefits {
+    width: 100%;
+  }
 }
 
 .benefits-boxes {
@@ -250,7 +248,13 @@ h2 {
   display: flex;
 }
 
-.benefits-box {
+@media (max-width: 1000px) {
+  .benefits-boxes {
+    margin: 0;
+  }
+}
+
+.benefits-boxes .benefits-box {
   width: 100%;
   background-color: #fff;
   border: 1px solid #e8e9ed;
@@ -259,15 +263,28 @@ h2 {
   align-items: center;
   margin-top: 15px;
   margin-bottom: 15px;
+  padding: 30px;
   display: flex;
 }
 
-.benefits-box img {
-  width: 50%;
-  display: flex;
+@media (max-width: 1000px) {
+  .benefits-boxes .benefits-box {
+    flex-direction: column;
+  }
 }
 
-.benefits-box hr {
+.benefits-boxes .benefits-box img {
+  width: 100%;
+  position: relative;
+}
+
+@media (max-width: 1000px) {
+  .benefits-boxes .benefits-box img {
+    padding: 37px 65px 27px;
+  }
+}
+
+.benefits-boxes .benefits-box hr {
   width: 325px;
   height: 4px;
   margin-top: 50px;
@@ -284,6 +301,47 @@ h2 {
   justify-content: center;
   padding: 90px 20px 90px 35px;
   display: flex;
+  position: relative;
+}
+
+@media (max-width: 1000px) {
+  .benefits-box--red, .benefits-box--blue {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.redish-square {
+  position: relative;
+}
+
+.redish-square:before {
+  content: "";
+  height: 160px;
+  width: 160px;
+  z-index: 0;
+  background-color: #fb3b64;
+  border-radius: 41px;
+  position: absolute;
+  top: -60px;
+  right: 0;
+  transform: rotate(45deg);
+}
+
+.blue-circle {
+  position: relative;
+}
+
+.blue-circle:before {
+  content: "";
+  height: 520px;
+  width: 520px;
+  z-index: 0;
+  background-color: #08a6e4;
+  border-radius: 50%;
+  position: absolute;
+  top: -70px;
+  left: 0;
 }
 
 .benefits-box--green {
@@ -298,6 +356,13 @@ h2 {
   display: flex;
 }
 
+@media (max-width: 1000px) {
+  .benefits-box--green {
+    width: 100%;
+    padding: 0;
+  }
+}
+
 .benefits-box:nth-child(3) {
   background-color: #f7f7f7;
   border: none;
@@ -309,9 +374,21 @@ h2 {
   background-color: #fb3b64;
 }
 
+@media (max-width: 1000px) {
+  .benefits-box--red hr {
+    display: none;
+  }
+}
+
 .benefits-box--blue hr {
   color: #08a6e4;
   background-color: #08a6e4;
+}
+
+@media (max-width: 1000px) {
+  .benefits-box--blue hr {
+    display: none;
+  }
 }
 
 .benefits-box--green hr {
@@ -319,14 +396,28 @@ h2 {
   background-color: #55dfb4;
 }
 
+@media (max-width: 1000px) {
+  .benefits-box--green hr {
+    display: none;
+  }
+}
+
 .green-img {
   background-color: #55dfb4;
   border: 1px solid #55dfb4;
   border-radius: 5px;
   align-items: center;
-  margin-left: 60px;
+  margin-left: 15px;
   padding: 50px;
   display: flex;
+}
+
+@media (max-width: 1000px) {
+  .green-img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .container-pricing {
@@ -348,6 +439,12 @@ h2 {
   display: flex;
 }
 
+@media (max-width: 1000px) {
+  .prices-boxes {
+    flex-direction: column;
+  }
+}
+
 .price-box {
   width: 30%;
   text-align: center;
@@ -357,6 +454,12 @@ h2 {
   padding-top: 35px;
   padding-bottom: 50px;
   display: flex;
+}
+
+@media (max-width: 1000px) {
+  .price-box {
+    width: 90%;
+  }
 }
 
 .price-box h3 {
@@ -428,6 +531,12 @@ h2 {
   padding-top: 60px;
   padding-bottom: 60px;
   box-shadow: 5px 10px 27px #07ace629;
+}
+
+@media (max-width: 1000px) {
+  .price-box--blue {
+    width: 100%;
+  }
 }
 
 .price-box--blue p {
@@ -528,12 +637,25 @@ nav ul li a:hover {
   display: flex;
 }
 
+@media (max-width: 1000px) {
+  .container-contact {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
 .contacts {
   width: 50%;
   flex-direction: column;
   padding-top: 50px;
   padding-bottom: 60px;
   display: flex;
+}
+
+@media (max-width: 1000px) {
+  .contacts {
+    width: 100%;
+  }
 }
 
 .contacts h2 {
