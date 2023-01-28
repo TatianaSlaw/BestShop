@@ -21,48 +21,45 @@
 
   @include mobPhones {
     width: 100%;
+    padding-bottom: 30px;
+    padding-top: 25px;
   }
-}
 
-.contacts h2 {
-  font-size: 49px;
-  line-height: 57px;
-  font-family: $secondary-font;
-  padding-bottom: 22px;
+  h2 {
+    font-size: 49px;
+    line-height: 57px;
+    font-family: $secondary-font;
+    padding-bottom: 22px;
 
-  @include mobPhones {
-    font-size: 40px;
-    line-height: 47px;
-    text-align: left;
+    @include mobPhones {
+      font-size: 40px;
+      line-height: 47px;
+      text-align: left;
+    }
   }
-}
 
-.contacts p {
-  font-size: 16px;
-  line-height: 22px;
-  padding-bottom: 40px;
-}
-
-.contacts span {
-  font-size: 17px;
-  line-height: 22px;
-  color: $color-grey;
-  font-weight: 600;
-  padding-right: 10px;
-
-  @include mobPhones {
-    display: block;
+  p {
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 40px;
   }
-}
 
-.contacts img {
-  width: 22px;
-  height: 27px;
-  padding-right: 10px;
+  img {
+    width: 22px;
+    height: 27px;
+    padding-right: 10px;
+  }
+
+  .contact-details span {
+
+    @include mobPhones {
+      display: flex;
+
+    }
+  }
 }
 
 /*--contact form--*/
-
 
 label {
   font-weight: bold;
@@ -106,7 +103,7 @@ input {
   margin-right: 15px;
   border: 1px solid #95989A;
   border-radius: 4px;
-
+  display: inline;
 }
 
 .checkbox {

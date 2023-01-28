@@ -16,7 +16,7 @@
 79C:\Users\slawi\BestShop\node_modules\css-select\lib\pseudo-selectors\aliases.js133192958996693111 0
 94C:\Users\slawi\BestShop\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest2.c133192959004012214 0
 68C:\Users\slawi\BestShop\node_modules\caniuse-lite\data\regions\UY.js133192959014483228 0
-29C:\Users\slawi\BestShop\.idea133194052418110313 1
+29C:\Users\slawi\BestShop\.idea133194226903016010 1
 57C:\Users\slawi\BestShop\node_modules\tslib\tslib.es6.html133192958995923446 0
 57C:\Users\slawi\BestShop\node_modules\escape-string-regexp133192958997470569 1
 67C:\Users\slawi\BestShop\node_modules\nth-check\lib\esm\compile.d.ts133192959001382132 0
@@ -28,7 +28,7 @@
 41C:\Users\slawi\BestShop\node_modules\.bin133192959015458327 1
 68C:\Users\slawi\BestShop\node_modules\caniuse-lite\data\regions\TZ.js133192959014342997 0
 30C:\Users\slawi\BestShop\assets133187842503130571 1
-28C:\Users\slawi\BestShop\dist133194051795624144 1
+28C:\Users\slawi\BestShop\dist133194225621886721 1
 42C:\Users\slawi\BestShop\node_modules\@lmdb133192959019315072 1
 52C:\Users\slawi\BestShop\node_modules\detect-libc\lib133192958998695943 1
 64C:\Users\slawi\BestShop\node_modules\utility-types\dist\index.js133192958997724576 0
@@ -37,7 +37,7 @@
 48C:\Users\slawi\BestShop\node_modules\@jridgewell133192958984122528 1
 67C:\Users\slawi\BestShop\node_modules\msgpackr\dist\index.min.js.map133192959002393872 0
 79C:\Users\slawi\BestShop\node_modules\caniuse-lite\data\features\style-scoped.js133192959013741905 0
-34C:\Users\slawi\BestShop\index.html133193981489550264 0
+34C:\Users\slawi\BestShop\index.html133194088927708123 0
 46C:\Users\slawi\BestShop\node_modules\callsites133192958997963397 1
 70C:\Users\slawi\BestShop\node_modules\lightningcss\node\targets.js.flow133192958999002010 0
 67C:\Users\slawi\BestShop\node_modules\@swc\helpers\src\_ts_param.mjs133192959006630745 0
@@ -71,14 +71,14 @@
 72C:\Users\slawi\BestShop\node_modules\css-tree\lib\syntax\function\var.js133192959006104350 0
 87C:\Users\slawi\BestShop\node_modules\@parcel\transformer-babel\lib\remapAstLocations.js133192959000700732 0
 54C:\Users\slawi\BestShop\node_modules\binary-extensions133192958998706995 1
-28C:\Users\slawi\BestShop\scss133193010208465000 1
+28C:\Users\slawi\BestShop\scss133194191604594001 1
 69C:\Users\slawi\BestShop\node_modules\term-size\vendor\macos\term-size133192958997980122 0
 63C:\Users\slawi\BestShop\node_modules\css-tree\lib\syntax\atrule133192959005883548 1
-37C:\Users\slawi\BestShop\scss\elements133194052417473452 1
+37C:\Users\slawi\BestShop\scss\elements133194227746414247 1
 36C:\Users\slawi\BestShop\scss\generic133192986339536515 1
 51C:\Users\slawi\BestShop\node_modules\@parcel\logger133192958998348526 1
 55C:\Users\slawi\BestShop\node_modules\chrome-trace-event133192958998872188 1
-38C:\Users\slawi\BestShop\scss\main.scss133193010208465000 0
+38C:\Users\slawi\BestShop\scss\main.scss133194191604594001 0
 50C:\Users\slawi\BestShop\node_modules\escalade\sync133192958999424432 1
 71C:\Users\slawi\BestShop\node_modules\caniuse-lite\data\features\json.js133192959010754974 0
 53C:\Users\slawi\BestShop\scss\settings\_variables.scss133193196113108466 0
@@ -118,10 +118,10 @@
 88C:\Users\slawi\BestShop\node_modules\@babel\highlight\node_modules\color-name\.npmignore133192958996594403 0
 73C:\Users\slawi\BestShop\node_modules\htmlnano\docs\docs\060-contribute.md133192959004001549 0
 77C:\Users\slawi\BestShop\node_modules\@swc\helpers\lib\_to_consumable_array.js133192959004342000 0
-51C:\Users\slawi\BestShop\scss\elements\_contact.scss133193983415188131 0
+51C:\Users\slawi\BestShop\scss\elements\_contact.scss133194087034682159 0
 65C:\Users\slawi\BestShop\node_modules\nth-check\lib\index.d.ts.map133192959000551861 0
 71C:\Users\slawi\BestShop\node_modules\type-fest\source\set-required.d.ts133192959002222223 0
-50C:\Users\slawi\BestShop\scss\elements\_footer.scss133193277983117854 0
+50C:\Users\slawi\BestShop\scss\elements\_footer.scss133194064798813485 0
 88C:\Users\slawi\BestShop\node_modules\@parcel\transformer-react-refresh-wrap\package.json133192958999445254 0
 57C:\Users\slawi\BestShop\node_modules\.bin\detect-libc.ps1133192959015458327 0
 68C:\Users\slawi\BestShop\node_modules\caniuse-lite\data\regions\SG.js133192959013472910 0
@@ -131,12 +131,12 @@
 54C:\Users\slawi\BestShop\node_modules\@parcel\fs-search133192959002928981 1
 83C:\Users\slawi\BestShop\node_modules\dom-serializer\node_modules\entities\readme.md133192959000666619 0
 42C:\Users\slawi\BestShop\assets\Trumpet.png133187842503130571 0
-50C:\Users\slawi\BestShop\scss\elements\_header.scss133193213951784481 0
+50C:\Users\slawi\BestShop\scss\elements\_header.scss133194227746414247 0
 93C:\Users\slawi\BestShop\node_modules\htmlnano\docs\versioned_docs\version-2.0.0\030-config.md133192959003697050 0
 78C:\Users\slawi\BestShop\node_modules\svgo\plugins\removeUnknownsAndDefaults.js133192959003697050 0
 79C:\Users\slawi\BestShop\node_modules\@parcel\transformer-babel\lib\constants.js133192958999842722 0
 74C:\Users\slawi\BestShop\node_modules\posthtml\node_modules\posthtml-parser133192958998558028 1
-50C:\Users\slawi\BestShop\scss\elements\_prices.scss133194052417473452 0
+50C:\Users\slawi\BestShop\scss\elements\_prices.scss133194056569691461 0
 98C:\Users\slawi\BestShop\node_modules\@parcel\node-resolver-core\test\fixture\packages\source-alias133192959005883548 1
 55C:\Users\slawi\BestShop\node_modules\entities\readme.md133192959001250277 0
 64C:\Users\slawi\BestShop\node_modules\@parcel\transformer-css\src133192958997024128 1
@@ -668,7 +668,7 @@
 77C:\Users\slawi\BestShop\node_modules\abortcontroller-polyfill\src\polyfill.js133192958999818085 0
 75C:\Users\slawi\BestShop\node_modules\@jridgewell\sourcemap-codec\dist\types133192958999288811 1
 57C:\Users\slawi\BestShop\node_modules\color-name\README.md133192958997621950 0
-47C:\Users\slawi\BestShop\dist\Close.22110c7d.svg133193961871642227 0
+47C:\Users\slawi\BestShop\dist\Close.22110c7d.svg133194225621344339 0
 58C:\Users\slawi\BestShop\node_modules\yaml\browser\index.js133192958999393604 0
 97C:\Users\slawi\BestShop\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\aliased133192959004781355 1
 75C:\Users\slawi\BestShop\node_modules\@parcel\core\src\public\BundleGraph.js133192959002757884 0
@@ -1215,7 +1215,7 @@
 76C:\Users\slawi\BestShop\node_modules\caniuse-lite\data\features\css3-attr.js133192959007753398 0
 105C:\Users\slawi\BestShop\node_modules\@parcel\node-resolver-core\test\fixture\packages\source\package.json133192959005895915 0
 62C:\Users\slawi\BestShop\node_modules\msgpackr\rollup.config.js133192959000891987 0
-43C:\Users\slawi\BestShop\.idea\workspace.xml133194052418110313 0
+43C:\Users\slawi\BestShop\.idea\workspace.xml133194226902880830 0
 70C:\Users\slawi\BestShop\node_modules\mdn-data\css\syntaxes.schema.json133192959001558587 0
 77C:\Users\slawi\BestShop\node_modules\@swc\helpers\lib\_non_iterable_spread.js133192959003670680 0
 56C:\Users\slawi\BestShop\node_modules\css-tree\lib\walker133192959004259466 1
@@ -1907,7 +1907,7 @@
 84C:\Users\slawi\BestShop\node_modules\lmdb\dependencies\lz4\lib\dll\example\README.md133192959006297514 0
 71C:\Users\slawi\BestShop\node_modules\@swc\helpers\src\_create_class.mjs133192959005975223 0
 57C:\Users\slawi\BestShop\node_modules\lmdb\dependencies\v8133192959005848561 1
-49C:\Users\slawi\BestShop\dist\Trumpet.041da3b3.png133193961871642227 0
+49C:\Users\slawi\BestShop\dist\Trumpet.041da3b3.png133194225621344339 0
 81C:\Users\slawi\BestShop\node_modules\lmdb\dependencies\v8\v8-fast-api-calls-v16.h133192959005813814 0
 62C:\Users\slawi\BestShop\node_modules\lmdb\dependencies\lz4\lib133192959006308368 1
 83C:\Users\slawi\BestShop\node_modules\caniuse-lite\data\features\web-app-manifest.js133192959014678130 0
@@ -2205,7 +2205,7 @@
 81C:\Users\slawi\BestShop\node_modules\@parcel\reporter-dev-server\src\HMRServer.js133192958998427364 0
 46C:\Users\slawi\BestShop\node_modules\csso\dist133192959001570554 1
 97C:\Users\slawi\BestShop\node_modules\htmlnano\docs\versioned_sidebars\version-2.0.0-sidebars.json133192959003160497 0
-53C:\Users\slawi\BestShop\dist\BestShop.3464ddca.js.map133193961872023841 0
+53C:\Users\slawi\BestShop\dist\BestShop.3464ddca.js.map133194225621801407 0
 65C:\Users\slawi\BestShop\node_modules\.bin\node-gyp-build-optional133192959015458327 0
 58C:\Users\slawi\BestShop\node_modules\escalade\package.json133192958997734639 0
 79C:\Users\slawi\BestShop\node_modules\htmlnano\docs\versioned_docs\version-1.1.1133192959004024306 1
@@ -2907,7 +2907,7 @@
 106C:\Users\slawi\BestShop\node_modules\@parcel\package-manager\test\fixtures\has-foo\subpackage\package.json133192959002883274 0
 69C:\Users\slawi\BestShop\node_modules\@parcel\resolver-default\LICENSE133192958995958475 0
 68C:\Users\slawi\BestShop\node_modules\caniuse-lite\data\regions\SY.js133192959013916749 0
-48C:\Users\slawi\BestShop\dist\iPhone.18df9ac3.png133193961871711027 0
+48C:\Users\slawi\BestShop\dist\iPhone.18df9ac3.png133194225621448095 0
 68C:\Users\slawi\BestShop\node_modules\caniuse-lite\data\regions\TD.js133192959013979093 0
 68C:\Users\slawi\BestShop\node_modules\caniuse-lite\data\regions\TJ.js133192959014149338 0
 86C:\Users\slawi\BestShop\node_modules\caniuse-lite\data\features\css-filter-function.js133192959006526873 0
@@ -3634,7 +3634,7 @@
 80C:\Users\slawi\BestShop\node_modules\@parcel\workers\test\integration\workerfarm133192959002115421 1
 91C:\Users\slawi\BestShop\node_modules\@parcel\workers\test\integration\workerfarm\console.js133192958999936559 0
 88C:\Users\slawi\BestShop\node_modules\@parcel\workers\test\integration\workerfarm\echo.js133192959000596867 0
-47C:\Users\slawi\BestShop\dist\index.574c7455.css133194051795595534 0
+47C:\Users\slawi\BestShop\dist\index.574c7455.css133194225621344339 0
 91C:\Users\slawi\BestShop\node_modules\@parcel\workers\test\integration\workerfarm\ipc-pid.js133192959001087892 0
 87C:\Users\slawi\BestShop\node_modules\@parcel\workers\test\integration\workerfarm\ipc.js133192959001189676 0
 91C:\Users\slawi\BestShop\node_modules\@parcel\workers\test\integration\workerfarm\logging.js133192959001261609 0
@@ -3668,7 +3668,7 @@
 86C:\Users\slawi\BestShop\node_modules\@parcel\package-manager\src\NodePackageManager.js133192959001548123 0
 67C:\Users\slawi\BestShop\node_modules\@parcel\watcher\src\Backend.cc133192958996679311 0
 67C:\Users\slawi\BestShop\node_modules\@parcel\watcher\src\binding.cc133192958997354916 0
-51C:\Users\slawi\BestShop\dist\Mail Icon.b0bc1804.svg133193961871983278 0
+51C:\Users\slawi\BestShop\dist\Mail Icon.b0bc1804.svg133194225621740403 0
 71C:\Users\slawi\BestShop\node_modules\@parcel\core\lib\CommittedAsset.js133192959003139721 0
 67C:\Users\slawi\BestShop\node_modules\@parcel\watcher\src\DirTree.cc133192958998783519 0
 115C:\Users\slawi\BestShop\node_modules\@parcel\node-resolver-core\test\fixture\packages\source-alias-glob\src\test.js133192959004601787 0
@@ -3835,7 +3835,7 @@
 86C:\Users\slawi\BestShop\node_modules\@parcel\source-map\parcel_sourcemap_node\index.js133192958999620365 0
 81C:\Users\slawi\BestShop\node_modules\@parcel\source-map\parcel_sourcemap_node\src133192959004733770 1
 112C:\Users\slawi\BestShop\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.linux-x64-gnu.node133192959004134860 0
-52C:\Users\slawi\BestShop\dist\Background.96fc9b9b.png133193961871679666 0
+52C:\Users\slawi\BestShop\dist\Background.96fc9b9b.png133194225621382401 0
 113C:\Users\slawi\BestShop\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.linux-x64-musl.node133192959004428963 0
 113C:\Users\slawi\BestShop\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.win32-x64-msvc.node133192959004678677 0
 74C:\Users\slawi\BestShop\node_modules\@parcel\source-map\dist\types.js.flow133192958997470569 0
@@ -4384,18 +4384,18 @@
 48C:\Users\slawi\BestShop\node_modules\.bin\terser133192959015470853 0
 52C:\Users\slawi\BestShop\node_modules\.bin\terser.cmd133192959015470853 0
 52C:\Users\slawi\BestShop\node_modules\.bin\terser.ps1133192959015470853 0
-49C:\Users\slawi\BestShop\dist\BestShop.3464ddca.js133193961871983278 0
-49C:\Users\slawi\BestShop\dist\Catalog.8507218e.svg133193961871711027 0
-51C:\Users\slawi\BestShop\dist\Checkmark.c57fbd17.svg133193961871983278 0
-53C:\Users\slawi\BestShop\dist\Ckechmark-1.80ec2266.svg133193961871983278 0
-45C:\Users\slawi\BestShop\dist\Eye.e60e75e7.svg133193961871642227 0
-50C:\Users\slawi\BestShop\dist\Facebook.389b15e8.svg133193961871642227 0
-51C:\Users\slawi\BestShop\dist\index.574c7455.css.map133194051795609586 0
-39C:\Users\slawi\BestShop\dist\index.html133193981490998680 0
-49C:\Users\slawi\BestShop\dist\Macbook.a1f4b436.png133193961871665538 0
-48C:\Users\slawi\BestShop\dist\Person.e8721018.svg133193961871711027 0
-52C:\Users\slawi\BestShop\dist\Phone Icon.b10af3a5.svg133193961871642227 0
-49C:\Users\slawi\BestShop\dist\Twitter.41e2b00a.svg133193961871983278 0
+49C:\Users\slawi\BestShop\dist\BestShop.3464ddca.js133194225621740403 0
+49C:\Users\slawi\BestShop\dist\Catalog.8507218e.svg133194225621549618 0
+51C:\Users\slawi\BestShop\dist\Checkmark.c57fbd17.svg133194225621740403 0
+53C:\Users\slawi\BestShop\dist\Ckechmark-1.80ec2266.svg133194225621740403 0
+45C:\Users\slawi\BestShop\dist\Eye.e60e75e7.svg133194225621344339 0
+50C:\Users\slawi\BestShop\dist\Facebook.389b15e8.svg133194225621344339 0
+51C:\Users\slawi\BestShop\dist\index.574c7455.css.map133194225621468282 0
+39C:\Users\slawi\BestShop\dist\index.html133194225621610072 0
+49C:\Users\slawi\BestShop\dist\Macbook.a1f4b436.png133194225621369759 0
+48C:\Users\slawi\BestShop\dist\Person.e8721018.svg133194225621549618 0
+52C:\Users\slawi\BestShop\dist\Phone Icon.b10af3a5.svg133194225621344339 0
+49C:\Users\slawi\BestShop\dist\Twitter.41e2b00a.svg133194225621740403 0
 42C:\Users\slawi\BestShop\assets\Catalog.svg133187842501876856 0
 46C:\Users\slawi\BestShop\assets\Checkmark-1.svg133187842501658266 0
 44C:\Users\slawi\BestShop\assets\Checkmark.svg133187842501416370 0
