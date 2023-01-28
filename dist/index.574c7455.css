@@ -485,6 +485,13 @@ h2 {
   display: flex;
 }
 
+@media (max-width: 1000px) {
+  .container-pricing {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
 .prices h2 {
   margin-top: 50px;
 }
@@ -516,6 +523,7 @@ h2 {
 @media (max-width: 1000px) {
   .price-box {
     width: 90%;
+    margin-bottom: 50px;
   }
 }
 
@@ -697,7 +705,9 @@ nav ul li a:hover {
 @media (max-width: 1000px) {
   .container-contact {
     width: 100%;
+    text-align: left;
     flex-direction: column;
+    padding: 0 30px;
   }
 }
 
@@ -722,6 +732,14 @@ nav ul li a:hover {
   line-height: 57px;
 }
 
+@media (max-width: 1000px) {
+  .contacts h2 {
+    text-align: left;
+    font-size: 40px;
+    line-height: 47px;
+  }
+}
+
 .contacts p {
   padding-bottom: 40px;
   font-size: 16px;
@@ -734,6 +752,12 @@ nav ul li a:hover {
   font-size: 17px;
   font-weight: 600;
   line-height: 22px;
+}
+
+@media (max-width: 1000px) {
+  .contacts span {
+    display: block;
+  }
 }
 
 .contacts img {
@@ -824,6 +848,12 @@ input {
   padding: 20px 135px;
   display: flex;
   box-shadow: 0 -5px 40px #00000029;
+}
+
+@media (max-width: 1000px) {
+  .container-footer {
+    padding: 20px 30px;
+  }
 }
 
 .copyright {
